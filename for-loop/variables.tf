@@ -1,7 +1,7 @@
 variable "instances" {
     default = [ "mongodb", "redis"]
     # default = {
-    #     mongodb = "t3.micro"  #object type=map
+    #     mongodb = "t3.micro"
     #     redis = "t3.micro"
     #     mysql = "t3.small"
     # }
